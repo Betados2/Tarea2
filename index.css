@@ -1,0 +1,128 @@
+
+body{
+    background-color: chocolate;
+}
+.contenedor{
+    overflow: auto;
+    margin: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: rgb(152, 94, 163); 
+    border: 10px solid black;
+}
+.principal1, .principal2, .principal3{
+    margin: auto;
+    width: 500px;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid black;
+    
+}
+.principal1{
+    background-color: beige;
+}
+.principal2{
+    background-color: rgb(179, 184, 224);
+}
+.principal3{
+    background-color: rgb(146, 235, 181);
+}
+.cajap1_1, .cajap1_2, .cajap1_3{
+    width: 130px;
+    height: 200px;
+    position: relative;
+    top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 5px solid black;
+
+} 
+.cajap1_1{
+    background-color: black;
+}
+.cajap1_2{
+    background-color: rgb(104, 57, 57);
+}
+.cajap1_3{
+    background-color: rgb(58, 19, 19);
+}
+.cajap1_4, .cajap1_5, .cajap1_6{
+    width: 400px;
+    height: 150px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+    border: 5px solid black;
+}
+.cajap1_4{
+    background-color: brown;
+}
+.cajap1_5{
+    background-color: rgb(35, 13, 56);
+}
+.cajap1_6{
+    background-color: rgb(21, 78, 47);
+}
+.cajap1_7,.cajap1_8, .cajap1_9{
+    width: 130px;
+    height: 200px;
+    position: relative;
+    margin: auto;
+    border: 5px solid black;
+    
+}
+.cajap1_7{
+    background-color: rgb(42, 124, 117);
+}
+.cajap1_8{
+    background-color: rgb(85, 16, 62);
+}
+.cajap1_9{
+    background-color: rgb(107, 106, 35);
+}
+.box1, .box2, .box3, .box4{
+    width: 400px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    border: 5px solid black;
+
+}
+.box1{
+    background-color: chartreuse;
+    margin-top: 30px;
+}
+.box2{
+    background-color: cyan;
+    
+}
+.box3{
+    background-color: gold;
+}
+.box4{
+    background-color: lightpink;
+    margin-bottom: 400px;
+}
+.cajas1, .cajas2, .cajas3{
+    width: 130px;
+    height: 200px;
+    margin: auto;
+    margin-top: 30px;
+    border: 5px solid black;
+}
+.cajas1{
+    background-color: red;
+}
+.cajas2{
+    background-color: yellow;
+}
+.cajas3{
+    background-color: green;
+}
